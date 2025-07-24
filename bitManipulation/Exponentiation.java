@@ -17,7 +17,7 @@ public class Exponentiation {
         return ans;
     }
     public static void main(String args[]){
-        int base = 5;
+        int base = 3;
         int pow = 3;
         System.out.println(exponent(base, pow));
     }
