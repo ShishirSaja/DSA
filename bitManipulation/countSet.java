@@ -10,6 +10,13 @@ public class countSet {
 
         return count;
     }
+
+     public static void swap(int a,int b){
+        a=(a^b);
+        b=(a^b);
+        a=(b^a);
+        System.out.println("a value is : "+a+" ,b value is : "+b);
+    }
     public static void main(String srgs[]){
         System.out.print(count(124455));
     }

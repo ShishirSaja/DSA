@@ -8,7 +8,8 @@ public class XORswap {
     public static void main(String args[]){
         int a=5;
         int b=3;
-        swap(a, b);
+        // swap(a, b);
+        System.out.println((-~3));
         
     }
 }
