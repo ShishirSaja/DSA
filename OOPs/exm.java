@@ -68,13 +68,4 @@ class pummorian extends dog {
         System.out.println("short");
     }
 
-    //code from another file for git only 
-    public void  Pen(){
-        System.out.println("creating new object of class pen");
-    }
-
-    public void Pen(Pen pn){
-        this.color = pn.color; 
-
-    }
 }
