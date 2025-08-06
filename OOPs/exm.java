@@ -61,6 +61,12 @@ class fish extends Animal{
     void swim(){
         System.out.println("fish swims");
     }
+
+    
+//extra
+    String eat(String food){
+        return food;
+    }
 }
 
 class pummorian extends dog {
